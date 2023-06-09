@@ -19,8 +19,8 @@ require("./config/passport")(passport);
 
 // Load envs
 
-const mongoURI = process.env.mongoURI;
-const secret = process.env.sessionSecret;
+const mongoURI = process.env.MONGO_URI;
+const secret = process.env.SECRET;
 
 // Load Routes
 const index = require("./routes/index");

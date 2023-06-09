@@ -1,6 +1,9 @@
 const GoogleStrategy = require("passport-google-oauth20").Strategy;
-const keys = require("./keys");
 const User = require("../models/User");
+// const keys = require("./keys");
+
+const googleClientID = process.env.G_ID;
+const googleClientSecret = process.env.G_SECRET;
 
 module.exports = function (passport) {
   passport.use(
@@ -8,8 +11,8 @@ module.exports = function (passport) {
       {
         // clientID: process.env.googleClientID,
         // clientSecret: process.env.googleClientSecret,
-        clientID: keys.googleClientID,
-        clientSecret: keys.googleClientSecret,
+        clientID: googleClientID,
+        clientSecret: googleClientSecret,
         callbackURL: "/auth/google/callback",
         proxy: true,
       },
