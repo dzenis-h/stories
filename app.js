@@ -83,7 +83,7 @@ app.set("view engine", "handlebars");
 app.use(cookieParser());
 app.use(
   session({
-    secret,
+    secret: "iuchpiwdhcpoihwdpoch",
     resave: false,
     saveUninitialized: false,
   })
