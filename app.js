@@ -20,7 +20,6 @@ require("./config/passport")(passport);
 // Load envs
 
 const mongoURI = process.env.MONGO_URI;
-const secret = process.env.SECRET;
 
 // Load Routes
 const index = require("./routes/index");
@@ -83,7 +82,7 @@ app.set("view engine", "handlebars");
 app.use(cookieParser());
 app.use(
   session({
-    secret: "iuchpiwdhcpoihwdpoch",
+    secret: process.env.sessionSecret,
     resave: false,
     saveUninitialized: false,
   })
