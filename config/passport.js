@@ -14,6 +14,7 @@ module.exports = function (passport) {
         clientID: googleClientID,
         clientSecret: googleClientSecret,
         callbackURL: "/auth/google/callback",
+        // https://mini-stories.onrender.com/auth/google/callback
         proxy: true,
       },
       (accessToken, refreshToken, profile, done) => {
