@@ -37,7 +37,7 @@ mini-stories
 
 ## 📍Overview
 
-The mini-stories GitHub project is a tool designed to help users create, edit, and share short stories with the world. It helps users to easily create stories with a simple, intuitive user interface. The files included in the project give users the ability to customize their stories with HTML, CSS, and JavaScript. Additionally, the project also provides authentication and authorization capabilities to ensure users' stories remain private. It is a valuable asset for any user looking to expand their creative writing skills while connecting with other writers.
+The mini-stories project is a platform designed to help users create, edit, and share short stories with the world. It helps users to easily create stories with a simple, intuitive user interface. The files included in the project give users the ability to customize their stories with HTML, CSS, and JavaScript. Additionally, the project also provides authentication and authorization capabilities to ensure users' stories remain private. It is a valuable asset for any user looking to expand their creative writing skills while connecting with other writers.
 
 ---
 
